@@ -1,6 +1,6 @@
 ﻿namespace CreditCalculator.After;
 
-public class CustomerService
+public class CustomerService : ICustomerService
 {
     public bool AddCustomer(
         string firstName,

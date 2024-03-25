@@ -2,7 +2,7 @@
 
 public class CustomerRepository
 {
-    private readonly List<Customer> _customers = [];
+    private readonly List<Customer> _customers = new();
 
     public List<Customer> GetCustomers() => _customers.ToList();
 
